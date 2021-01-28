@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dasverruecktelabyrinth.SpielFeldViewController">
+    <stylesheets>
+        <URL value="@/styles/spielfeldview.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="23.0" layoutY="651.0" mnemonicParsing="false" onAction="#btnAburt" text="Spiel Abbrechen" />
+      <ImageView fitHeight="89.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="91.0" layoutX="90.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/scarab.png" />
+         </image></ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="180.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="270.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="540.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="540.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="450.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="540.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="270.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="450.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="93.0" layoutX="90.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/turn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="360.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="270.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="360.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="270.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="89.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="182.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="89.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="89.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="2.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="93.0" layoutX="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/bat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="93.0" layoutX="450.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/moth.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="87.0" layoutX="180.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/dragon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="87.0" layoutX="450.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/owl.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="87.0" layoutX="270.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/ghost.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="87.0" layoutX="450.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/gnome.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="93.0" layoutX="90.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/salamander.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="93.0" layoutX="360.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/poltergeist.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="91.0" layoutX="540.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/spider.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="93.0" layoutX="270.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/mouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="93.0" layoutX="540.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/witch.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="93.0" layoutX="450.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/straight.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerRed" fitHeight="33.0" fitWidth="33.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/Player.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerYellow" fitHeight="33.0" fitWidth="33.0" layoutX="570.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/Player%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerblue" fitHeight="333.0" fitWidth="33.0" layoutX="570.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/Player%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerGreen" fitHeight="33.0" fitWidth="33.0" layoutX="30.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Bilder/all_tiles/Player%20(3).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="368.0" layoutY="651.0" mnemonicParsing="false" onAction="#btnTest" text="Test Button" />
+      <Button layoutX="203.0" layoutY="651.0" mnemonicParsing="false" onAction="#btnStartGame" text="Start Button" />
+   </children>
+</AnchorPane>

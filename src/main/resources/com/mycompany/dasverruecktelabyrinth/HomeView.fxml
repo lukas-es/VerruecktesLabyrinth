@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="com.mycompany.dasverruecktelabyrinth.HomeViewController">
+    <stylesheets>
+        <URL value="@/styles/homeview.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Moin Leute" />
+      <Button layoutX="74.0" layoutY="187.0" mnemonicParsing="false" onAction="#btnSpielen" text="Spielen" />
+      <Label layoutX="14.0" layoutY="191.0" text="Spielen:" />
+   </children>
+</AnchorPane>
